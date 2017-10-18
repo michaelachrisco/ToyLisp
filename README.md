@@ -1,4 +1,14 @@
-# ToyLisp: A Simple Lisp Implementation in C #
+# ToyLisp: A Simple Lisp Implementation in C - WASM Implementation #
+
+This is a working example of a working WASM Implementation of LISP based on Kim, Taegyoons work.
+
+Steps:
+1. Install webassembly and apache2 (working on Ubuntu 17.04)
+2. git clone git@github.com:michaelachrisco/ToyLisp.git
+3. (optional) emcc ToyLisp.c -s WASM=1 -o toy.html\
+4. sudo cp -R ~/ToyLisp/ /var/www/html/
+5. go to your browser and navidate to IP/ToyLisp/toy.html A prompt should pop up. Type in some LISP code and it should work in place.
+Suggested (+ 1 1)
 
 (C) 2014 Kim, Taegyoon
 
