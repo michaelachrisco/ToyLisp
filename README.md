@@ -11,9 +11,10 @@ $ ./emsdk install latest
 $ ./emsdk activate latest
 ```
 2. git clone git@github.com:michaelachrisco/ToyLisp.git
-3. emcc ToyLisp.c -s WASM=1 -o toy.html
-4. python -m SimpleHTTPServer 8000
-5. go to your browser and navidate to toy.html A prompt should pop up. Type in some LISP code and it should work in place.
+3. `cd ToyLisp`
+4. emcc ToyLisp.c -s WASM=1 -o toy.html
+5. python -m SimpleHTTPServer 8000
+6. go to your browser and navidate to toy.html A prompt should pop up. Type in some LISP code and it should work in place.
 `Suggested (+ 1 1)`
 
 (C) 2014 Kim, Taegyoon
